@@ -1,0 +1,39 @@
+.cartelera {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cartelera .subtitulo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.cartelera .subtitulo div {
+    height: 30px;
+    width: 2.5px;
+    background: #E50914;
+}
+
+.cartelera .subtitulo h2 {
+    font-size: 24px
+}
+
+.cartelera .muro {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    .cartelera .muro {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .cartelera .muro {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

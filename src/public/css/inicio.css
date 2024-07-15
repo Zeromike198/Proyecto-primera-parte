@@ -1,0 +1,22 @@
+.fondo {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 75px 0px 0px  0px;
+}
+
+.oscuro {
+    background-image: url('../../assets/Granito.jpg');
+}
+
+.claro {
+    background-image: url('../../assets/fondo.jpg');
+}
+
+.main {
+    padding: 50px;
+    height: auto;
+    width: 1250px;
+} 

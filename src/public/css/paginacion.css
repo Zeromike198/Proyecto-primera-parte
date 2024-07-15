@@ -1,0 +1,53 @@
+.paginacion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listado{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.icono {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.modoOscuro {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all;  
+    transition-duration: .3s; 
+}
+
+.modoOscuro:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: all;  
+    transition-duration: .3s;
+    cursor: pointer;  
+}
+
+.letra {
+    font-size: x-large;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}

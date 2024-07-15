@@ -1,0 +1,138 @@
+.header {
+    z-index: 10;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #000 ;
+    position: fixed;
+}
+
+.nav {
+    width: 1250px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav .titulo {
+    height: auto;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .titulo img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav .enlaces {
+    flex: 1;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .enlaces li a{
+    font-size: 18px;
+    text-decoration: none;
+    transition: all;
+    transition-duration: .3s;
+}
+
+.nav .enlaces li a:hover{
+    color: #E50914;
+    transition: all;
+    transition-duration: .3s;
+}
+
+.nav .enlaces li{
+    font-size: 22px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav .buscador {
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.nav .buscador input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.nav .buscador button {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.nav .cajita {
+    display: flex;
+    gap: 0px;
+}
+
+.nav .cajita span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 26px;
+    width: 0px;
+    visibility: hidden;
+}
+
+@media (max-width: 858px){
+    .nav {
+        margin: 0 30px;
+        justify-content: space-between;
+    }
+
+    .nav .enlaces {
+        top: 75px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: fit-content;
+        right: 0;
+    }
+
+    .nav .enlaces-hidden {
+        top: 75px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: fit-content;
+        right: 0;
+        visibility: hidden;
+    }
+    
+    .nav .cajita span{
+        width: auto;
+        visibility: visible;
+    }
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+.fondo-header-oscuro {
+    background-color: #101010;
+}
+
+.fondo-header-claro {
+    background-color: #eeeeee;
+}
+
+
+.border-oscuro {
+    border: 2px solid #000;
+}
+
+.border-claro {
+    border: 2px solid #ffffff;
+}
+
+.border-rojo {
+    border-bottom: 2px solid #E50914;
+}
+
+.fondo-oscuro {
+    background: #191919;
+}
+
+.fondo-claro {
+    background: #d4d4d4;
+}
+
+.fondo-nav-oscuro {
+    background-color: #1C1C1C;
+}
+
+.fondo-nav-claro {
+    background-color: #c9c9c9;
+}
+
+.fondo-negro-claro {
+    background: #ffffff;
+}
+
+.fondo-negro-oscuro {
+    background: #000;
+}
+
+.letra-gris {
+    color: #898989;
+}
+
+.letra-claro {
+    color: #313131;
+}
+
+.letra-amarillo {
+    color: #FFD600;
+}
+
+.letra-blanca {
+    color: #FFFFFF;
+}
+
+.letra-roja {
+    color: #E50914;
+}
+
+.letra-negra {
+    color: #000;
+}
